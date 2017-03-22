@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/cross-env/bin/cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.6.0",
+    "lodash": "^4.16.2",
+    "vue": "^2.0.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "cross-env": "^3.1.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "leaflet": "^1.0.3",
+    "leaflet-dialog": "^1.0.1",
+    "leaflet-draw-drag": "^0.4.3",
+    "leaflet-path-transform": "^1.0.2",
+    "leaflet-providers": "^1.1.16"
+  }
+}
